@@ -1,0 +1,58 @@
+/* pages/findings/findings.wxss */
+page{
+  background: #EAEAEA;
+}
+
+/* 头部导航开始 */
+.flex-wrp{
+  display: flex;  /*弹性布局*/
+  flex-direction: row;/*元素内弹性盒元素的方向相反的顺序*/
+}
+.flex-item{
+  width: 25%;
+  height: 5rem;
+  background: #fff;
+  text-align: center;
+}
+.flex-item image{
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 40rpx;
+}
+.flex-item:nth-child(-n+3){
+  border-right: 1rpx solid #EAEAEA;
+}
+/* 头部导航结束 */
+
+/* 发现内容开始 */
+.findings-image{
+  padding: 10rpx;
+}
+.findings-image image{
+  width: 100%;
+  height: 300rpx;
+}
+.findings-image-text{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.findings-text{
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 30rpx;
+}
+.findings-text text{
+  display: block;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 发现内容结束 */
+
+/* 补白 */
+.findings-height{
+  height: 10rpx;
+}

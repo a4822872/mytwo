@@ -1,0 +1,110 @@
+/* pages/cart/cart.wxss */
+
+/* 购物车底部导航开始 */
+.bottom-navbar{
+  position: fixed; /*绝对定位*/
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  font-size: 30rpx;
+  bottom: 0; 
+  z-index: 1;
+}
+.flex-wrp{
+  display: flex;
+  line-height: 100rpx;
+  text-align: center;
+}
+.flex-item-left{
+  width: 25%;
+}
+.flex-item-center{
+  width: 40%;
+
+}
+.flex-item-center text{
+
+  background: #ff6700;
+}
+.flex-item-right{
+  width: 35%;
+  right: 0;
+  background: #ff6700;
+  color: #fff;
+}
+/* 购物车底部导航结束 */
+
+/* 购物车列表开始 */
+.cart-list{
+  width:100%;
+  height: 100%;
+}
+.list-wrp{
+  display: flex;
+  height: 100rpx;
+  background: #fff;
+  margin-top: 10rpx;
+}
+.list-item-left{
+  line-height: 100rpx;
+  width: 15%;
+  margin-left: 10rpx;
+}
+.list-item-image{
+  width: 20%;
+  height: 70rpx;
+}
+.list-item-image image{
+  width: 100%;
+  height: 100%;
+  margin-top: 20rpx;
+}
+.list-item-text{
+  display: block;/**转为块元素*/
+  width: 40%;
+  line-height: 100rpx;
+  word-break:keep-all;
+  white-space: nowrap;
+  overflow: hidden;  /*隐藏掉溢出的内容*/
+  text-overflow: ellipsis; /*溢出的内容变成...符号*/
+  
+}
+.list-item-right{
+  width: 25%;
+  line-height: 100rpx;
+  font-size: 28rpx;
+}
+
+.list-item-right text{
+  color: #ff6700;
+  font-size: 36rpx;
+}
+/* 购物车列表结束 */
+
+/* 设置复选样式开始 */
+/* 未选中的背景样式 */
+checkbox .wx-checkbox-input{
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+}
+/* 选中后的背景样式(红色背景 无边框) */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+  border: none;
+  background: red;
+}
+/* 选中后的对勾样式(对勾颜色为 白色) */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%,-50%) scale(1)
+}
+/* 设置复选样式结束 */
+

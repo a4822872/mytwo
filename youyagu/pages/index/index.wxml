@@ -1,0 +1,76 @@
+<!--index.wxml-->
+<swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+  <swiper-item>
+    <image src='../images/index-1.jpg' class='slide-image'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../images/index-2.jpg' class='slide-image'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../images/index-3.png' class='slide-image'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../images/index-4.jpg' class='slide-image'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../images/index-5.jpg' class='slide-image'></image>
+  </swiper-item>
+</swiper>
+<!-- 超值推荐开始 -->
+<view class='separator'></view>
+<view class='floortitle'>
+  <view>超值推荐</view>
+  <view>更多>></view>
+</view>
+<view class='hotgoodcontainer'>
+  <image src='../images/1.jpg' class='hotgooding'></image>
+  <view class='imgview'>
+    <image class='productimg' src='../images/2.jpg'></image>
+  </view>
+  <view class='textinfo'>
+    <text class='text-info1'>红米6A</text>
+    <text class='text-info2'>AI人脸解锁,小巧全面屏,高性能处理器</text>
+    <text class='text-info3'>¥1999</text>
+  </view>
+   <view class='gooditem'>
+    <view class='imgview'>
+      <image class='productimg' src='../images/3.jpg'></image>
+    </view>
+    <view class='textinfo'>
+      <text class='text-info1'>兰博基尼</text>
+      <text class='text-info2'>城市越野，全景天窗，值得拥有</text>
+      <text class='text-info3'>￥3000000</text>
+    </view>
+  </view>
+</view>
+<!-- 超值推荐结束 -->
+
+<!-- 新品上市开始 -->
+<view class='separator'></view>
+<view class='floortitle'>
+  <view>新品上市</view>
+  <view>更多>></view>
+</view>
+<view class='hotgoodcontainer'>
+  <image src='../images/1.jpg' class='hotgooding'></image>
+  <view class='imgview'>
+    <image class='productimg' src='../images/2.jpg'></image>
+  </view>
+  <view class='textinfo'>
+    <text class='text-info1'>红米6A</text>
+    <text class='text-info2'>AI人脸解锁,小巧全面屏,高性能处理器</text>
+    <text class='text-info3'>¥1999</text>
+  </view>
+   <view class='gooditem'>
+    <view class='imgview'>
+      <image class='productimg' src='../images/3.jpg'></image>
+    </view>
+    <view class='textinfo'>
+      <text class='text-info1'>兰博基尼</text>
+      <text class='text-info2'>城市越野，全景天窗，值得拥有</text>
+      <text class='text-info3'>￥3000000</text>
+    </view>
+  </view>
+</view>
+<!-- 新品上市结束 -->
+<view class='separator'></view>

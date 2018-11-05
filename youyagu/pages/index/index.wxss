@@ -1,0 +1,101 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+.slide-image{
+  width: 100%;
+  height: 300rpx;
+}
+/* 超值推荐开始 */
+.floortitle{
+  display: flex;  /* 弹性布局*/
+  height: 68rpx;  /*高度*/
+  align-items: center; /*内容垂直居中 */
+  padding: 0 26rpx;  /*设置内边距 */
+  font-size: 28rpx;  /*设置字体大小 */
+  justify-content: space-between;  /*内容对齐 */
+  color: rgba(0, 0,0, 0.7);  /*设置字体颜色 */
+  border-bottom: 1px solid #e2e2e2;  /*设置底部边框 */
+}
+/* 超值推荐结束 */
+.hotgoodcontainer{
+  display: flex;  /*弹性布局*/
+  width: 100%;  /*设置宽度*/
+  flex-wrap: wrap; /*元素在必要的时候拆行*/
+  background: #F3F3F3; /*设置背景色*/
+}
+/*大图设置样式*/
+.hotgoodimg{
+  width: 100%; /*设置宽度*/
+  height: 300rpx; /*设置高度*/
+  align-items: center;  /*设置内容居中*/
+  margin: 0 auto; /*设置外边距*/
+  padding-bottom: 5rpx; /*设置底部内边距*/
+}
+
+.gooditem{
+  display: flex;  /*弹性布局*/
+  width: 50%; /*设置宽度*/
+  flex-direction: column; /*垂直显示*/
+  justify-content: centent; /*内容对齐*/
+  align-items: center;  /*内容居中*/
+  font-size: 24rpx; /*字体大小*/
+  padding: 5rpx 0 5rpx 0; /*设置的值是从：上 右 下 左*/
+}
+.imgview{
+  width: 98%; /*设置宽度*/
+  height: 350rpx; /*设置高度*/
+}
+.productimg{
+  width: 100%; /*设置宽度*/
+  height: 300rpx; /*设置高度*/
+}
+
+/*文字*/
+.textinfo{
+  width: 98%; /*设置宽度*/
+  background: #FFF; /*设置背景*/
+  padding-bottom: 15rpx;  /*设置底部内边距*/
+}
+.text-info1{
+  font-size: 1rem;  /*设置字体大小*/
+  margin-left: 15rpx; /*设置左边外边距*/
+}
+.text-info2{
+  display: block; /*转换成块元素*/
+  max-width: 12em;  /*设置最大宽度*/
+  font-size: 28rpx; /*设置字体大小*/
+  margin-left: 15rpx; /*设置左边外边距*/
+  overflow: hidden; /*隐藏多余的内容*/
+  white-space: nowrap;  /*强制不换行*/
+  text-overflow: ellipsis;  /*强制不换行*/
+}
+.text-info3{
+  font-size: 1rem;  /*设置字体大小*/
+  margin-left: 15rpx; /*设置左边外边距*/
+  color:#FF6700;  /*设置字体颜色*/
+}
+/* 补白开始 */
+.separator{
+  height: 15rpx; 
+  width: 100%;
+  background: #F3F3F3;
+}
+/* 补白结束 */

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/findings/findings",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF6700",
+    "navigationBarTitleText": "优雅谷",
+    "navigationBarTextStyle": "#FFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/icon/home.png",
+        "selectedIconPath": "pages/icon/home_fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "pages/icon/createtask.png",
+        "selectedIconPath": "pages/icon/createtask_fill.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/findings/findings",
+        "iconPath": "pages/icon/browse.png",
+        "selectedIconPath": "pages/icon/browse_fill.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "pages/icon/cat.png",
+        "selectedIconPath": "pages/icon/cat_fill.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "pages/icon/user.png",
+        "selectedIconPath": "pages/icon/user_fill.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+<!--pages/findings/findings.wxml-->
+<view class='section'>
+  <!-- 头部导航开始 -->
+  <view class='flex-wrp'>
+    <view class='flex-item'>
+      <image src='../icon/browse.png'></image>
+      <text>新品</text>
+    </view>
+    <view class='flex-item'>
+       <image src='../icon/browse.png'></image>
+      <text>推荐</text>
+    </view>
+     <view class='flex-item'>
+       <image src='../icon/browse.png'></image>
+      <text>热销</text>
+    </view>
+     <view class='flex-item'>
+       <image src='../icon/browse.png'></image>
+      <text>精品</text>
+    </view>
+  </view>
+  <!-- 头部导航结束 -->
+<view class='findings-height'></view>
+<!-- 补白 -->
+
+<!-- 发现内容开始 -->
+<view class='findings-image'>
+  <view class='findings-image-text'>
+    <image src='../images/1.jpg'></image>
+    <view class='findings-text'>
+      <text>这是一台神奇的手机,这是一台神奇的手机,</text>
+    </view>
+  </view>
+</view>
+<!-- 发现内容结束 -->
+<view class='findings-height'></view>
+<!-- 补白 -->
+</view>

@@ -1,0 +1,43 @@
+<!--pages/category.wxml-->
+<view>
+  <!-- 左侧菜单开始 -->
+  <scroll-view class='left-navbar' scroll-y='true'>
+    <view data-id='0' bindlongtap='navbarTap' class='{{ currentTap == 0?"active":"" }}'>新品</view>
+    <view data-id='1' bindlongtap='navbarTap' class='{{ currentTap == 1?"active":"" }}'>手机</view>
+    <view data-id='2' bindlongtap='navbarTap' class='{{ currentTap == 2?"active":"" }}'>电视</view>
+    <view data-id='3' bindlongtap='navbarTap' class='{{ currentTap == 3?"active":"" }}'>电脑</view>
+    <view data-id='4' bindlongtap='navbarTap' class='{{ currentTap == 4?"active":"" }}'>家电</view>
+    <view data-id='5' bindlongtap='navbarTap' class='{{ currentTap == 5?"active":"" }}'>路由</view>
+    <view data-id='6' bindlongtap='navbarTap' class='{{ currentTap == 6?"active":"" }}'>出行</view>
+    <view data-id='7' bindlongtap='navbarTap' class='{{ currentTap == 7?"active":"" }}'>穿戴</view>
+    <view data-id='8' bindlongtap='navbarTap' class='{{ currentTap == 8?"active":"" }}'>智能</view>
+    <view data-id='9' bindlongtap='navbarTap' class='{{ currentTap == 9?"active":"" }}'>电源</view>
+    <view data-id='10' bindlongtap='navbarTap' class='{{ currentTap == 10?"active":"" }}'>个户</view>
+    <view data-id='11' bindlongtap='navbarTap' class='{{ currentTap == 11?"active":"" }}'>灯具</view>
+    <view data-id='12' bindlongtap='navbarTap' class='{{ currentTap == 12?"active":"" }}'>儿童</view>
+    <view data-id='13' bindlongtap='navbarTap' class='{{ currentTap == 13?"active":"" }}'>配件</view>
+  </scroll-view>
+  <!-- 左侧菜单结束 -->
+</view>
+<!-- 右侧菜单开始 -->
+<scroll-view id='right' scroll-y='true' scroll-top='{{scrollTop}}'>
+  <view class='goods-banner'>
+    <image class='img-banner' src='../images/1.jpg'></image>
+  </view>
+  <view class='goods-list'>
+    <view class='goods-title'>新品</view>
+    <view class='goods'>
+      <image src='../images/2.jpg'></image>
+      <text>小米9</text>
+    </view>
+        <view class='goods'>
+      <image src='../images/3.jpg'></image>
+      <text>小米9</text>
+    </view>
+        <view class='goods'>
+      <image src='../images/2.jpg'></image>
+      <text>小米9</text>
+    </view>
+  </view>
+</scroll-view>
+<!-- 右侧菜单结束 -->

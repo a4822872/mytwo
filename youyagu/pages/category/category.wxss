@@ -1,0 +1,62 @@
+/* pages/category.wxss */
+/* 左侧菜单开始 */
+.left-navbar{
+  position: absolute;  /*将对象从文档流中脱离出来*/
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background: #eee;
+  font-size: 30rpx;
+}
+.left-navbar view{
+  height: 80rpx;
+  line-height: 80rpx;  /*行高*/
+  text-align: center; /*内容居中*/
+}
+.active{
+  background: #fff;
+  color: red;  /*字体颜色*/
+  font-size: 34rpx;
+}
+/* 左侧菜单结束 */
+/* 隐藏左侧菜单栏开始 */
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+/* 隐藏左侧菜单栏结束 */
+
+/* 右侧菜单开始 */
+#right{
+  position: absolute;
+  right: 0;
+  width: 75%;
+  height: 100%;
+}
+.img-banner{
+  width: 100%;
+  height: 200rpx;
+}
+.goods-list{
+  display: flex;  /*弹性布局*/
+  flex-wrap: wrap;/*让弹性盒元素在必要的时候拆行*/
+  margin-top: 30rpx; /*头部外边距*/
+}
+.goods{
+  width: 150rpx;
+  font-size: 28rpx;
+  margin: 15rpx; /*外边距*/
+  text-align: center; /*内容居中*/
+}
+.goods image{
+  width: 140rpx;
+  height: 140rpx;
+}
+.goods-title{
+  width: 100%;
+  font-size: 30rpx;
+  font-weight: bold;
+  padding-left: 10rpx; 
+}
+/* 右侧菜单结束 */

@@ -1,0 +1,43 @@
+<!--pages/cart/cart.wxml-->
+<view>
+  <!-- 购物车底部导航开始 -->
+  <scroll-view class='bottom-navbar'>
+    <view class='flex-wrp'>
+      <view class='flex-item-left'>
+      <checkbox-group bindchange='selectedAll'>
+        <checkbox checked='{{selectedStasu}}'>全选</checkbox>
+      </checkbox-group>  
+      </view>
+      <view class='flex-item-center'>
+        合计:<text>{{zongprice}}</text>
+      </view>
+      <view class='flex-item-right'>
+        <text>结算(3)</text>
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 购物车底部导航结束 -->
+
+  <!-- 购物车列表开始 -->
+  <scroll-view class='cart-list' scroll-y='true'>
+    <block wx:for='{{carts}}'>
+    <view class='list-wrp'>
+      <view class='list-item-left'>
+        <checkbox-group>
+          <checkbox checked='{{item.selected}}' value='0'></checkbox>
+        </checkbox-group>
+      </view>
+      <view class='list-item-image'>
+        <image src='{{item.images}}'></image>
+      </view>
+      <view class='list-item-text'>
+        <text>{{item.title}}</text>
+      </view>
+      <view class='list-item-right'>
+        1 x <text>{{item.price}}</text>
+      </view>
+    </view>
+    </block>
+  </scroll-view>
+  <!-- 购物车列表结束 -->
+</view>
